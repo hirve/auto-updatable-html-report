@@ -22,8 +22,6 @@ class HtmlReport {
               margin: 5px;
             }
             img, svg {
-              padding: 5px;
-              margin: 5px;
               border: 1px solid #eee;
             }
           </style>
