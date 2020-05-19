@@ -8,7 +8,7 @@ const report = new HtmlReport('./report.html');
 report.title('Some report');
 report.text('Some description...');
 report.img(400, 400, './img.jpg', 'Image title');
-report.svg(400, 400, '<rect cx="200" cy="200" r="100" style="fill:red"/>', 'Svg title', { vx: 50, vy: 50, vw: 350, vh: 350 });
+report.svg(400, 400, '<circle cx="200" cy="200" r="100" style="fill:red"/>', 'Svg title', { vx: 0, vy: 0, vw: 500, vh: 500 });
 report.save();
 ```
 
